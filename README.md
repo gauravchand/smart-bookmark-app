@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [Smart Bookmark App](https://github.com/gauravchand/smart-bookmark-app)
+
+A private bookmark management app built with [Next.js](https://nextjs.org) and [Supabase](https://supabase.com), featuring Google OAuth authentication.
 
 ## Getting Started
 
