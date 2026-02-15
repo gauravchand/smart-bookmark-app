@@ -31,16 +31,16 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-50 text-gray-900 font-sans p-4">
+    <div className="min-h-screen flex flex-col items-center bg-gray-50 text-gray-900 font-mono p-4">
       {/* Header */}
-      <header className="w-full max-w-4xl flex justify-between items-center py-6 mb-4">
-        <h1 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
-           ⚡ Smart Bookmarks
+      <header className="w-full max-w-4xl flex justify-center items-center py-6 mb-4 relative">
+        <h1 className="text-4xl font-bold text-blue-800 flex items-center gap-2">
+            Smart Bookmarks
         </h1>
         {user && (
           <button
             onClick={handleLogout}
-            className="text-sm bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 font-medium py-2 px-4 rounded transition"
+            className="absolute right-0 text-sm bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 font-medium py-2 px-4 rounded transition"
           >
             Sign Out
           </button>
